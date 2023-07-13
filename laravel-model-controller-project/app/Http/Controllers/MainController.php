@@ -15,8 +15,8 @@ class MainController extends Controller
     public function index() {
 
         $students = Student :: all();
-        dd($students[3]);
+        // dd($students[3]);
 
-        return view("home");
+        return view("home", compact("students"));
     }
 }

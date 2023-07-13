@@ -12,5 +12,5 @@ class Student extends Model
     public $id;
 
     public $name;
-    public $lastname;
+    public $surname;
 }
