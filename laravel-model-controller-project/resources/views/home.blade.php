@@ -10,7 +10,7 @@
             QUESTA è LA PAGINA HOME.BLADE.PHP
 
             <br>
-            <a href="{{route('lista-fumetti')}}">LISTA FUMETTI</a>
+            <a href="{{route('lista-fumetti')}}">LISTA Studenti</a>
         </h1>
 </div>
 
